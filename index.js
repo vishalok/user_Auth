@@ -52,7 +52,7 @@ require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
 
 app.get('/',(req,res)=>{
-    res.send('app is running sucessfully!!!')
+    res.send('<h1>app is running sucessfully!!!<h1>')
 })
 
 app.listen(PORT, ()=> {
