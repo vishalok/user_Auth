@@ -16,7 +16,7 @@ if(process.env.NODE_ENV !== 'production'){
 //Using the bodyParser middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+console.log(connectionString);
 
 //IIFE
 (async ()=> {
@@ -50,6 +50,11 @@ catch(err){
 // call the routes
 require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
+
+app.get('/',(req,res)=>{
+    res.send('app is running sucessfully!!!')
+})
+
 app.listen(PORT, ()=> {
     console.log(`server is running on port: ${PORT}, please access it on http://localhost:${PORT}`)
 })
