@@ -3,5 +3,5 @@ const {verifyToken, } = require('../middlewares/auth');
 
 
 module.exports = (app) => {
-    app.get('/mba/api/v1/getAllusers', verifyToken,getAllusers);
+    app.get('/user/api/v1/getAllusers', verifyToken,getAllusers);
 }
