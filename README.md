@@ -10,12 +10,12 @@
 <br/>
 
 # About
-A BackEnd application for  user Authentication application built on MVC(Model-View-Controller) architecture. The technologies uses on this application are - <b>NodeJS</b>, <b>ExpressJS</b>, <b>bcryptJS</b>, <b>Mongoose</b> and <b>JWT</b>. This application uses <b>MongoDB</b> technology to interact with DataBase. Important key features this application contains are :-
+A BackEnd application for  user Authentication application built on MVC(Model-View-Controller) architecture. The technologies uses on this application are - <b>NodeJS</b>, <b>ExpressJS</b>, <b>bcrypt</b>, <b>Mongoose</b> and <b>JWT</b>. This application uses <b>MongoDB</b> technology to interact with DataBase. Important key features this application contains are :-
 
 <br>
 
 - User SignUp and LogIn feature.
-- uses <b>JWT</b> and <b>bcryptJS</b> for Authentication.
+- uses <b>JWT</b> and <b>bcrypt</b> for Authentication.
 
 <br><br>
 
