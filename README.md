@@ -24,6 +24,13 @@ A BackEnd application for  user Authentication application built on MVC(Model-Vi
 ```bash
 https://user-auth-lxxg.onrender.com/
 ```
+
+***Postman view :***
+
+```bash
+https://documenter.getpostman.com/view/23827129/2s93m1Yioo
+```
+
 # API Documentation
 
 ## Users
